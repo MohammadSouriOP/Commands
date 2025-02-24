@@ -1,0 +1,14 @@
+go to github and sign in 
+go to the settings and press on ssh key
+open the terminal 
+write : ssh-keygen -t rsa -b 4096 -C "youremail@example.com"
+then name file where you wanna put the folder 
+then write ls | grep (name of the file) to check
+then write cat (file name).pub to see the ssh key
+copy the key and paste it on github and press add 
+then go to your github and got to the repo and press on code 
+then take the ssh link 
+go to your vscode and open the terminal there
+write the command 'git remote add origin (paste the link ssh link)' then press enter
+then got to github and press on compare and pull request to see the files
+after that the files should be downloaded on your device then open the html and you will see the Todo List App
